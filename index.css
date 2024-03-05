@@ -1,0 +1,261 @@
+.frame-child {
+  width: 42px;
+  position: relative;
+  border-radius: 50%;
+  height: 42px;
+  object-fit: cover;
+}
+.home {
+  width: 92px;
+  height: 29px;
+}
+.about,
+.dashboard,
+.editor,
+.home,
+.logout {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.editor {
+  width: 95px;
+  color: #b17e1b;
+  height: 43px;
+}
+.about,
+.dashboard,
+.logout {
+  width: 107px;
+  height: 29px;
+}
+.dashboard,
+.logout {
+  width: 153px;
+  height: 54px;
+}
+.logout {
+  width: 152px;
+  height: 29px;
+}
+.ellipse-parent,
+.home-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 19px;
+  left: 116px;
+  justify-content: flex-start;
+  gap: 0 697px;
+}
+.header {
+  position: absolute;
+  top: 47px;
+  left: 0;
+  width: 1440px;
+  height: 88px;
+  overflow: hidden;
+}
+.image-1-icon {
+  width: 1272px;
+  position: relative;
+  height: 545px;
+  object-fit: cover;
+  z-index: 0;
+}
+.subwaycloud-upload {
+  width: 55px;
+  position: relative;
+  height: 46px;
+  z-index: 0;
+}
+.vector-icon {
+  width: 83.64%;
+  position: absolute;
+  margin: 0 !important;
+  height: 67.39%;
+  top: 15.22%;
+  right: 16.36%;
+  bottom: 17.39%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.img,
+.upload-img {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 0;
+}
+.upload-img {
+  margin: 0 !important;
+  top: 476px;
+  left: 1212px;
+  z-index: 1;
+}
+.img {
+  top: 10px;
+  left: 84px;
+  width: 1272px;
+  overflow: hidden;
+}
+.cover-img,
+.section {
+  position: absolute;
+  left: 0;
+}
+.cover-img {
+  top: 180px;
+  width: 1440px;
+  height: 584px;
+  overflow: hidden;
+}
+.section {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-black);
+}
+.blog-title,
+.start-writing-here {
+  width: 1272px;
+  position: relative;
+  display: inline-block;
+}
+.blog-title {
+  height: 47px;
+  flex-shrink: 0;
+}
+.start-writing-here {
+  font-size: var(--font-size-xl);
+}
+.heading-text {
+  position: absolute;
+  top: 14px;
+  left: 84px;
+  background-color: var(--color-black);
+  border-top: 1px solid var(--color-black);
+  border-bottom: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1272px;
+  height: 146px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 0;
+  gap: 32px 0;
+}
+.text-here {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.btn-group,
+.button {
+  height: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  width: 125px;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  padding: var(--padding-5xs) var(--padding-mini);
+}
+.btn-group {
+  position: absolute;
+  top: 160px;
+  left: 579px;
+  width: 282px;
+  gap: 0 32px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-quicksand);
+}
+.container {
+  position: absolute;
+  top: 782px;
+  left: 0;
+  width: 1440px;
+  height: 275px;
+}
+.div,
+.email,
+.instagram,
+.youtube {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  flex-shrink: 0;
+}
+.div {
+  width: 75px;
+  line-height: 24px;
+}
+.email,
+.instagram,
+.youtube {
+  width: 97px;
+}
+.email,
+.instagram {
+  width: 59px;
+}
+.instagram {
+  width: 126px;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 50px;
+}
+.editor-page,
+.editor-page-inner {
+  background-color: var(--color-black);
+  overflow: hidden;
+}
+.editor-page-inner {
+  position: absolute;
+  top: 1293px;
+  left: 0;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px 84px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-quicksand);
+}
+.editor-page {
+  width: 100%;
+  position: relative;
+  height: 1377px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
